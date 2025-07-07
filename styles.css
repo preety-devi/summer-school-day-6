@@ -11,7 +11,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     width: 400px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(172, 95, 161, 0.464);
     text-align: center;
     margin: 0 auto;
 }
@@ -22,13 +22,19 @@ button {
     border: none;
     border-radius: 5px;
     color: #030334;
-    cursor: pointer;
+    box-shadow: 0 3px 9px rgba(39, 37, 37, 0.771);
     transition: background-color 3s;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 #weatherResult {
   background-color: #ae8bb7;
   margin-top: 10px;
+  border-radius: 3px;
+  padding: 10px;
+  color: #010130;
+
 }
 h2{
   text-decoration: underline ;
